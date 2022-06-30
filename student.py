@@ -49,3 +49,9 @@ class Student:
 
     def getDregree(self):
         return self.degree
+
+    #Print method
+
+    def printStudent(self):
+
+        print(f"{self.code}\n{self.name}\n{self.lastName}\n{self.age}\n{self.semester}\n{self.degree}")
