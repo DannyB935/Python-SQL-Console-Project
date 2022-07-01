@@ -1,3 +1,1 @@
-form student import Student
-
-newStudent = Student()
+from student import Student
