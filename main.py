@@ -1,3 +1,5 @@
-form student import Student
+from student import Student
+from dataBase import DataBase
 
-newStudent = Student()
+DB = DataBase()
+DB.checkConnection()

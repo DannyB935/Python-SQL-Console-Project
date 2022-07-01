@@ -54,4 +54,4 @@ class Student:
 
     def printStudent(self):
 
-        print(f"{self.code}\n{self.name}\n{self.lastName}\n{self.age}\n{self.semester}\n{self.degree}")
+        print(f" Code: {self.code}\n Name: {self.name}\n Last Name: {self.lastName}\n Age: {self.age}\n Semester: {self.semester}\n Degree: {self.degree}")
